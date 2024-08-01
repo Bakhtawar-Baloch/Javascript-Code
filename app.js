@@ -204,11 +204,68 @@ var answer2 = ("No, I haven't!");
 var completeAnswer2 = prompt (learning2, answer2);
 alert (completeAnswer2);
 
-//Chapter# 10 ---> If statements
+//Chapter 10 ----> If Statements
+
+var city = prompt ("Which city is known as the city of lights?");
+if (city === "Karachi") {
+alert ("The City of Lights");
+}
+
+var x = prompt ("Enter value of x");
+var y = prompt ("Enter value of y");
+if (x === y) { 
+    alert ("y is equal to x");
+    var z = prompt ("Enter value of z");
+    alert ("correct answer");
+}
+
+var zipCode = prompt ("Enter Zipcode");
+if (zipCode === "10010") { 
+    alert ("Karachi");
+}
+if (zipCode !== "10010") { 
+    alert ("Please write correct city code");
+}
+
+var a = prompt ("Enter Number");
+if (a === "500") { 
+    var a = 1000;
+    alert ("Variable a value is now changed to 1000");
+}
+
+//Chapter 11 ---->
+
+var abc = 10
+var bcd = 15
+if (abc !== bcd) {
+    alert ("Unequal");
+}
+
+a = 50
+b = 30
+if (a >= b) {
+    alert (a + " is greater than " + b);
+}
+
+var ab = prompt ("Enter value of ab");
+if (ab !== 100) { 
+    var ab = 50;
+    alert ("ab is now 50");
+}
+
+if (5 !== 6) {
+    alert ("Congratulations Now");
+}
+
+var firstName = prompt ("What is your first name?");
+if (firstName !== "Bakhtawar") {
+    alert ("No Match");
+}
 
 
 
 
+//----XXX---XXX------
 
 
 
