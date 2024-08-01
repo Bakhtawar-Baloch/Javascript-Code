@@ -263,6 +263,98 @@ if (firstName !== "Bakhtawar") {
 }
 
 
+//Chapter 12 ---> if/else statements
+
+var e = prompt ("Enter value for e");
+var f = prompt ("Enter value for f");
+if (e >= f) {
+    alert ("e is greater than equal to f");
+}
+else {
+    alert ("e is NOT greater than equal to f");
+}
+
+
+var marksObtained = +prompt ("Enter your marks to check your exam grade");
+var totalMarks = 100;
+var percentage = (marksObtained / totalMarks) * 100;
+if (percentage >= 80) {
+    alert ("Your exam grade is A");
+}
+else if (percentage >= 50) {
+    alert ("Your exam grade is B");
+}
+else {
+    alert ("Your exam grade is F");
+}
+
+
+var a = +prompt ("Type the value for a")
+if (a === 10) {
+    alert ("a is 10");
+}
+else {
+    alert ("The correct value of a is " + a);
+}
+
+
+var city = prompt ("Enter your city name");
+if (city === "Karachi") {
+    alert ("It is Karachi");
+}
+else if (city === "Lahore") {
+    alert ("It is Lahore");
+}
+else {
+    alert ("Your city is neither Karachi nor Lahore");
+}
+
+
+
+//Chapter # 13 -----> else / if / conditions
+
+var a = 50;
+var b = 50;
+var c = 70;
+var d = 70;
+if (a === b && c === d) {
+    alert ("The condition is True");
+}
+
+var a = 30;
+var b = 30;
+var c = 25;
+var d = 50;
+if (a === b || c === d) {
+    alert ("Either or both conditions are True");
+}
+
+var userName = "Hamza";
+var age = 50;
+if (userName === "Hamza" || userName === "Arsalan" && age < 60) {
+    alert ("Conditions meet");
+}
+
+var asd = 10;
+var bsd = 15;
+if (asd < bsd || asd > bsd) {
+    alert ("Condition Resolved");
+}
+
+var nameOne = "Bakhtawar";
+var nameSecond = "Baloch";
+var z = prompt ("What is your first name?");
+var w = prompt ("What is your last name?");
+if (nameOne === z && nameSecond === w) {
+    alert ("Both Names Match!");
+}
+else {
+    alert ("Names Do Not Match!");
+}
+
+
+
+
 
 
 //----XXX---XXX------
