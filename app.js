@@ -354,7 +354,64 @@ else {
 
 
 
+//Chapter 14
 
+var password = prompt ("Enter password");
+if (password !== null) {
+    if (password < 5) {
+        alert ("Password must be greater than 5");
+    }
+    else {
+        alert ("OK");
+    }
+}
+
+var a = 1;
+var c = "Max";
+if (a === 1) {
+    if (c === "Max") {
+        alert ("Ok");
+    }
+}
+
+
+var a = 1;
+var c = "Max";
+if (a === 1 && c === "Max") {
+    alert ("Ok the condition works");
+    }
+
+var z = 10;
+var w = 10;
+if (z === w) {
+    if (z <= w) {
+        alert ("First variable is equal to the second variable");
+    }
+}
+else {
+    alert ("Doesnt work");
+}
+
+
+
+//Chapter 15
+
+let myArray = [];
+
+let anotherArray = ["Bob", 123, 53, 100];
+alert (anotherArray[0]);
+
+var alphabet = ["h", "i", "j", "k"];
+alert (alphabet[2]);
+
+var alphabet = ["h", "i", "j", "k", "l", "m", "n", "o"];
+var alphabetLength = alphabet.length;
+alert ("The length of Array is " + alphabetLength);
+
+var newArray = ["Bob"];
+newArray[1] = "Stanley";
+newArray[2] = "Mathew";
+alert ("the new elements added are " + newArray[1] + " & " + newArray[2]);
 
 
 //----XXX---XXX------
